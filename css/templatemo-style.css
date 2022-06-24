@@ -1,0 +1,55 @@
+.ist-sec li{
+	    list-style-type: none;
+    display: inline;
+    padding: 0 15px;
+}
+.ist-sec ul {
+	position: absolute;
+    right: 50px;
+}
+.ist-sec {
+	display: flex;
+}
+.ist-section {
+
+	padding: 20px;
+}
+.secnd-section {
+	background-image: url("../hiker.jpg");
+	    background-repeat: no-repeat;
+    /* height: 900px; */
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+	position: relative;
+}
+.secnd-section:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	background: rgba(0,0,0,0.7);
+	
+}
+.slider-txt {
+	    left: 30px;
+    position: absolute;
+    top: 30%;
+    color: white;
+}
+.third-secnt {
+	height: 100vh;
+}
+.fourth-secnt {
+	height: 100vh;
+}
+.fifth-secnt {
+	height: 100vh;
+}
+footer {
+	    height: 40vh;
+    background: #232323;
+    text-align: center;
+}
